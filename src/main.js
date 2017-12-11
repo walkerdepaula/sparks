@@ -9,6 +9,9 @@ import router from './router'
 Vue.config.productionTip = false
 Vue.use(Vuex)
 
+import 'bootstrap/dist/css/bootstrap.css' // << import CSS
+import 'fontawesome' // << import CSS
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
